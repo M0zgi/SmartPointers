@@ -28,14 +28,11 @@ public:
 
 	friend ostream& operator << (ostream& out, const People& obj);
 
-
 private:
 
 	string name;
 	int age;
 };
-
-
 
 
 int main()
@@ -117,7 +114,6 @@ int main()
 
 ostream& operator<<(ostream& out, const People& obj)
 {
-
 	out << "ФИО: " << obj.name << endl << "Возраст: " << obj.age;
 		out << endl;
 
